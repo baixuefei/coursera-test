@@ -1,0 +1,90 @@
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	background-color: #f5f5f5;
+}
+
+.navbar {
+	height: 70px;
+	background-color: white;
+	border: none;
+}
+
+.nav-header {
+	margin: 10px;
+}
+
+.navbar-brand {
+	padding: 30px 30px;
+}
+
+.page-title {
+	font-size: 60px;
+	text-align: center;
+	padding: 70px 0px 60px 0px;
+}
+
+.main-content {
+	padding: 0px 30px;
+}
+
+.menu-section {
+	height: 700px;
+	background-color: white;
+	border: 1px solid #E0E0E0;
+	clear: right;
+}
+
+.title {
+	width: 140px;
+	font-style: bold;
+	font-size: 125%;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #E0E0E0;
+	position: relative;
+	float: right;
+	top: 0px;
+	right: 0px;
+}
+
+.chicken {
+	background-color: #FFCCBC;
+}
+
+.beef {
+	background-color: #FF5252;
+	color: white;
+}
+
+.sushi {
+	background-color: #A5D6A7;
+}
+
+.content {
+	clear: right;
+	padding: 20px;
+}
+
+.back-to-top {
+	padding: 20px 40px;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.back-to-top a{
+	color: #FF8A80;
+}
+
+.back-to-top a:hover {
+	color: #FF1744;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: white;
+	}
+}
